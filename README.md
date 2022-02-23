@@ -1,10 +1,10 @@
 # Generate .docx files from a mediawiki  
 * get the page names from the mediawiki database 
-* login via api using srvautomation user
+* login via api
 * change the img src direction
-* remove unnecessary html content (like footer, navigation, links etc.) 
+* remove unnecessary html content like footer, navigation etc. 
 * change thumb picture to full pictures
-* stored as "{title}.docx" into the subfolder: "mediawikiPageAsDocx" 
+* stored as "{title}.docx" into a subfolder: "mediawikiPageAsDocx" 
 
 # Preliminarys:
 * install pypandoc

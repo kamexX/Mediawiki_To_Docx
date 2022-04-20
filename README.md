@@ -7,16 +7,14 @@
 * Store the DOCX as "{title}.docx" into the subfolder: "mediawikiPageAsDocx" 
 
 # Preliminarys:
-* Install pypandoc
-* Install bs4
-* Install mysql.conector
+* pip install -r requirements.txt
 * Set up the enviroment variables:
-    * MEDIAWIKI_LOGIN_USER
-    * MEDIAWIKI_LOGIN_PASS
-    * MEDIAWIKI_DB_USER
-    * MEDIAWIKI_DB_PASS
+    * set MEDIAWIKI_LOGIN_USER=root 
+    * set MEDIAWIKI_LOGIN_PASS=myrootpassword
+    * set MEDIAWIKI_DB_USER=root
+    * set MEDIAWIKI_DB_PASS=myrootpass
 
-Change the following constans:
+Change the following constans in the source code:
 * PROTOCOL
 * HTML_HOSTNAME
 * DATABASE_HOSTNAME (optional)

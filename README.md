@@ -24,7 +24,7 @@ Change the following constans in the source code:
 * OUTPUT PATH (if it is not wanted that the folder should be in the same directory as the script)
 
 
-# Known Problems:
+# Known Issues:
 * Pandoc Installation
 * Mediawiki API activation
 * No Images in the Output File
